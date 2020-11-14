@@ -7,6 +7,8 @@ I can't remember the first time I thought about writing a blog, but the idea stu
 1. Random Thoughts and Musings
 2. Technical Posts
 3. Book Reviews
+<br>
+
 Random Thoughts and Musings(Let's call it RTAM for short) shall consist of any interesting thoughts which I wish to document. I hope to start Technical Posts with mainly explorations and experiments in machine learning, for which I have a lot lined up in my mental to-do list.
 Book Reviews will consist of reviews of books(surprise surprise!) that have affected me or have just piqued my interest.
 
