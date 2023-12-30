@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: First Post
 ---
 I can't remember the first time I thought about writing a blog, but the idea stuck with me and here we are. As of now I plan to divide this blog into three parts:
