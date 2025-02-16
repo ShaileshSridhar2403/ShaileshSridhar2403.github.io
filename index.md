@@ -8,7 +8,7 @@ classes: wide
 {: .notice--warning}
 **🚧 Website Under Development** - Some sections may be incomplete or under construction.
 
-I research, design and deploy end-to-end ML systems, from real-time computer vision on edge devices to interpretable AI solutions. Currently focused on model interpretability research (focusing on transformer based architectures like LLMs, ViTs). I have a track record of a couple of first-author publications, a thesis award and open source contributions.
+I research, design and deploy Machine Learning systems, often working end-to-end, from real-time computer vision on edge devices to explainable AI. Currently focused on model interpretability research (focusing on transformer based architectures like LLMs, ViTs). I have a track record of a couple of first-author publications, a thesis award and open source contributions.
 
 Key Recent Projects:
 
@@ -18,4 +18,4 @@ Key Recent Projects:
 
 I hold a master's from UPenn where I focused on Machine Learning, Computer Vision, and Optimization, and thrive at the intersection of research and engineering—whether advancing AI transparency or solving real-world problems in healthcare and sustainability.
 
-I would love to connect if you're passionate about ML systems, interpretability, or AI for good!
+I would love to connect if you're passionate about Machine Learning, interpretability, or AI for good!
