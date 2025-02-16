@@ -1,7 +1,13 @@
 ---
 layout: single
-title: First Post
+title: "First Post"
+categories:
+  - writing
+tags:
+  - introduction
+excerpt: "Starting a blog journey"
 ---
+
 I can't remember the first time I thought about writing a blog, but the idea stuck with me and here we are. As of now I plan to divide this blog into three parts:
 
 1. Random Thoughts and Musings

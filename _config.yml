@@ -12,15 +12,18 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "contrast" #"default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+# Add at the top, near other theme settings
+# head_scripts:
+#   - assets/css/custom.css
+minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "My Website"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Shailesh"
-description              : "Hello!"
+subtitle                 : "🚧 Under Development"  # This will appear under your site title
+name                     : "Shailesh Sridhar"
+description              : "Machine Learning Engineer and Researcher | Computer Vision, LLMs and Interpretability"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -104,30 +107,21 @@ analytics:
 
 # Site Author
 author:
-  name             : "Shailesh"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Hello!"
-  location         : "Somewhere"
+  name             : "Shailesh Sridhar"
+  avatar           : "/assets/images/profile.jpg"
+  bio              : "Machine Learning Engineer and Researcher | Computer Vision, LLMs and Interpretability"
+  location         : "Philadelphia"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+      url: "mailto:shai2403@seas.upenn.edu"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://github.com/ShaileshSridhar2403"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/shailesh-sridhar-441baa156/"
 
 # Site Footer
 footer:
@@ -277,6 +271,16 @@ compress_html:
     envs: development
 
 
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:path/
+  research:
+    output: true
+    permalink: /:collection/:path/
+
+
 # Defaults
 defaults:
   # _posts
@@ -290,3 +294,20 @@ defaults:
       comments: true
       share: true
       related: true
+  # _projects
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      author_profile: true
+      share: true
+  # _research
+  - scope:
+      path: ""
+      type: research
+    values:
+      layout: single
+      author_profile: true
+      share: true
+

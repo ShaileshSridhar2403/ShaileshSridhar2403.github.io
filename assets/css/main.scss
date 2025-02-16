@@ -7,3 +7,60 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+/* Custom CSS */
+.author__avatar {
+  img {
+    max-width: 250px;  /* Increase from default (110px) */
+    border-radius: 50%; /* Keep the circular shape */
+    filter: none !important; /* Prevent any filter effects */
+    opacity: 1 !important; /* Prevent opacity changes */
+  }
+}
+
+.sidebar .author__avatar {
+  img {
+    &:hover {
+      filter: none !important;
+      opacity: 1 !important;
+    }
+  }
+}
+
+.author__avatar a {
+  &:hover {
+    img {
+      filter: none !important;
+      opacity: 1 !important;
+    }
+  }
+}
+
+/* Project image styling */
+.page__content {
+  img {
+    width: 100%;
+    max-width: 800px;  /* Adjust this value as needed */
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* Reduce font size on About page */
+  p {
+    font-size: 0.9em;
+    line-height: 1.6;
+  }
+  
+  li {
+    font-size: 0.9em;
+    line-height: 1.6;
+  }
+}
+
+.archive__item-teaser {
+  img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+}
