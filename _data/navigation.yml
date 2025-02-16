@@ -6,6 +6,8 @@ main:
     url: /resume/
   - title: "Research"
     url: /research/
+  - title: "Industry Experience"
+    url: /experience/
   - title: "Projects"
     url: /projects/
   - title: "Posts"
