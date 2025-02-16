@@ -11,5 +11,3 @@ author_profile: true
 </iframe>
 
 [Download Resume](/assets/files/Resume_Shailesh.pdf){: .btn .btn--primary}
-
-[Your resume content here] 
