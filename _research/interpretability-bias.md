@@ -9,7 +9,7 @@ weight: 1
 
 ### Publication
 
-* **Missingness Bias Calibration in Feature Attribution Explanations** - Accepted as a conference paper at ICML 2026
+* **Missingness Bias Calibration in Feature Attribution Explanations** - Accepted as a conference paper at ICLR 2026
   * We introduce MCal, a lightweight post-hoc method that corrects missingness bias by fine-tuning a simple linear head on the outputs of a frozen base model. MCal is model-agnostic, requires only output logits, and comes with theoretical guarantees of convergence to a globally optimal solution. We demonstrate its effectiveness across diverse medical benchmarks spanning vision, language, and tabular domains, where it is competitive with or outperforms prior heavyweight approaches such as full retraining and architecture modifications.
   * [Preprint (PDF)](/assets/files/MCal.pdf)
 
